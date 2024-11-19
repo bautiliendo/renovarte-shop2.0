@@ -19,10 +19,10 @@ export const TopMenu = () => {
                 </Link>
             </div>
             <div className="hidden sm:block">
-                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/category/men">Hombres</Link>
-                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/category/women">Mujeres</Link>
-                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/category/kid">Niños</Link>
-                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/category/unisex">Unisex</Link>
+                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/gender/men">Hombres</Link>
+                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/gender/women">Mujeres</Link>
+                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/gender/kid">Niños</Link>
+                <Link className="m-2 p-2 rounded-md transition-all hover:bg-gray-200" href="/gender/unisex">Unisex</Link>
             </div>
 
             <div className="flex items-center">
