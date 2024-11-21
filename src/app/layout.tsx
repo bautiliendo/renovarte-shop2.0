@@ -4,7 +4,10 @@ import { inter } from "@/config/fonts";
 
 
 export const metadata: Metadata = {
-  title: "Tienda Renovarte",
+  title: {
+    template: '%s - Tienda | Renovarte',
+    default: 'Home - Tienda | Renovarte'
+  },
   description: "Tienda online de Renovarte",
 };
 
